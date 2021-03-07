@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+
+
+    <link rel="stylesheet" href="./assets/style.css" />   
+</head>
+<body>
+    <h1>Weather Dashboard</h1> 
+    <div class="sidenav">
+      <h2>Search for a City:</h2>
+      <input type="text" id="mySearch" onkeyup="myFunction()" placeholder="Search.." title="Type in a category">
+      <a href="#">Austin</a>
+      <a href="#">Chicago</a>
+      <a href="#">New York</a>
+      <a href="#">Orlando</a>
+      <a href="#">San Francisco</a>
+      <a href="#">Seattle</a>
+      <a href="#">Denver</a>
+      <a href="#">Atlanta</a>
+
+    </div>
+
+
+
+    <!-- <div class="card">
+      <img src="img_sunshine" alt="graphic" style="width:100%">
+      <div class="container">
+        <h4><b>Date</b></h4>
+        <p>Monday</p>
+      </div> -->
+
+
+    </div>
+    <div class="container"></div>
+
+  
+    <div class="notification is-primary">
+    </div>
+      <strong></strong>
+
+    <script src="https://api.openweathermap.org/data/2.5/weather?q={city name},{state code}&appid={51688b83c80c3d8d576f988092807cd1}></script>
+
+    
+</body>
+</html>
